@@ -21,5 +21,6 @@ the model will see what those suffixes were used like before and will be able to
 To encode the given sentence first we need to convert our token dictionary from longest word to shortest word. We add split each word in the sentence and add </w> to the end of word. We iterate through each token and if the substring of the word includes the token we put that token as tokenization process. Decoding is given our tokens we merge the word do not have </w> and add ‘ ‘ if the word has </w> at the end.
 
 ## References
-Rico Sennrich (2016). [Neural Machine Translation of Rare Words with Subword Units](https://www.aclweb.org/anthology/P16-1162.pdf)
-Lei Mao - [Byte Pair Encoding](https://leimao.github.io/blog/Byte-Pair-Encoding/)   
+- Rico Sennrich (2016). [Neural Machine Translation of Rare Words with Subword Units](https://www.aclweb.org/anthology/P16-1162.pdf)
+
+- Lei Mao - [Byte Pair Encoding](https://leimao.github.io/blog/Byte-Pair-Encoding/)   
